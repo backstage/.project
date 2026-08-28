@@ -1,0 +1,69 @@
+# .project metadata for Backstage
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "backstage"
+name: "Backstage"
+description: "Backstage is an open platform for building developer portals"
+type: "project"
+project_lead: "Rugvip" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#out-of-the-sandbox-and-into-incubation"
+    primary: true
+
+maturity_log:
+  - phase: "incubating"
+    date: "2020-09-08T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/274" # TODO: AUTO-DETECTED — please verify
+
+repositories: # TODO: AUTO-DETECTED primary — please verify
+  - url: "https://github.com/backstage/backstage"
+    primary: true
+    # tags: [core, sig-apps] # Optional
+
+website: "https://backstage.io/"
+
+artwork: "https://landscape.cncf.io/logos/backstage.svg"
+
+adopters:
+  path: "https://github.com/backstage/backstage/blob/master/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "backstage/backstage"
+
+
+security:
+  policy:
+    path: "https://github.com/backstage/backstage/blob/master/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/backstage/backstage/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/backstage/backstage/blob/master/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/backstage/backstage/blob/master/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/backstage/backstage/blob/master/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/backstage/backstage/blob/master/README.md"
+
+landscape:
+  category: "App Definition and Development"
+  subcategory: "Application Definition & Image Build"
+
+# CLOMonitor Score: 72/100
+# Documentation: 97 | License: 43 | Best Practices: 95 | Security: 45
