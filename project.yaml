@@ -25,7 +25,7 @@ repositories: # TODO: AUTO-DETECTED primary — please verify
 
 website: "https://backstage.io/"
 
-artwork: "https://landscape.cncf.io/logos/backstage.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/backstage"
 
 adopters:
   path: "https://github.com/backstage/backstage/blob/master/ADOPTERS.md"
